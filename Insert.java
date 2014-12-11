@@ -1,4 +1,4 @@
-public void Insertsort(int[] a){
+public void Insertsort(int[] a){//插入排序
     int i,j;
 	for (i = 1; i < a.length; i++) {
 	  if (a[i]<a[i-1]) {
