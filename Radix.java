@@ -1,5 +1,5 @@
 public static void Radixsort(int[] number, int d) {// d表示最大的数有多少位
-       int k = 0;
+        int k = 0;
 	int n = 1;//位数，个位、十位、百位
 	int m = 1;// 控制键值排序依据在哪一位
 	int[][] temp = new int[10][number.length];// 数组的第一维表示可能的余数0-9，该数的个数
