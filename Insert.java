@@ -1,5 +1,5 @@
 public void Insertsort(int[] a){
-    int i,j;
+	int i,j;
 	for (i = 1; i < a.length; i++) {
 	  if (a[i]<a[i-1]) {
 			int temp=a[i];
